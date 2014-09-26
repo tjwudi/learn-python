@@ -5,5 +5,6 @@ def read_int(msg):
         return result
     except ValueError as err:
         print(err)
+        return read_int(msg)
 
 print(read_int('Enter an integer'))
