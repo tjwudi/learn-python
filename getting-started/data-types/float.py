@@ -1,4 +1,8 @@
-a = 0.0, 8.9e-4, 10e-8
+import math
+import sys
 
-for _ in a:
-  print(_)
+print(float())
+print(round(0.34, 1))
+print(math.factorial(10))
+
+print(sys.float_info)

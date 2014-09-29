@@ -33,9 +33,9 @@ if len(swap_idxes) < 2:
   print('NO')
 else:
   print('YES')
-  ans = []
-  for i in range(0, len(arr_t)):
-    ans.append(str(arr_t[i][0]+1))
+    ans = []
+    for i in range(0, len(arr_t)):
+      ans.append(str(arr_t[i][0]+1))
   print(' '.join(ans))
   swap_arr_el(ans, swap_idxes[0], swap_idxes[0] + 1)
   print(' '.join(ans))
